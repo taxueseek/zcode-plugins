@@ -1,13 +1,13 @@
 # Argo 阿尔戈 for ZCode
 
-统一搜索、网页抓取与证据核验插件：272 个源、235 个免密钥可用，覆盖深度研究、学术、舆情、公众号、招聘聚合与本地检索。不止搜到，还要核到——高后果问题强制核验正文并回填证据分。
+统一搜索、网页抓取与证据核验插件：284 个源、240 个免密钥可用，覆盖深度研究、学术、舆情、公众号、招聘聚合与本地检索。不止搜到，还要核到——高后果问题强制核验正文并回填证据分。
 
 能力由 [argo CLI](https://github.com/taxueseek/argo) 提供，本插件是它在 ZCode 中的三层接入：
 
 | 层 | 形态 | 说明 |
 |---|---|---|
 | 模型通道 | skills + commands + agents | `/argo` 日常一问、`/wide-research` 多轨编排取证；`argo-researcher` worker 用工具白名单机制化约束 |
-| 控制通道 | ui.surfaces 面板 | 「Argo 面板」侧栏页：272 引擎开关、密钥写入（脱敏）、额度摘要；配置经页面直连服务，不占模型 token |
+| 控制通道 | ui.surfaces 面板 | 「Argo 面板」侧栏页：284 引擎开关、密钥写入（脱敏）、额度摘要；配置经页面直连服务，不占模型 token |
 | 取证通道 | skill+CLI（主）/ MCP（可选） | 模型按 skill 纪律调 `argo search/fetch/research` 等 CLI 命令；面板 MCP 服务 `tools/list` 恒为空，零常驻 token |
 
 ## 前置依赖
