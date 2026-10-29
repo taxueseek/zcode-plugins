@@ -1417,7 +1417,7 @@
         "en": "Argo",
         "zh-CN": "Argo 阿尔戈"
       },
-      "version": "2.10.1",
+      "version": "2.10.2",
       "source": "./external_plugins/argo-zcode",
       "description": "Unified search, web fetching, and evidence verification over 284 sources, powered by the argo CLI.",
       "description_i18n": {
